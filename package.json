@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "@xtao-org/tailrec.js",
+  "description": "Simple explicit tail call optimization in JavaScript.",
+  "version": "1.0.0",
+  "main": "tailrec.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "ecmascript",
+    "javascript",
+    "tailrec",
+    "tailcall",
+    "tail",
+    "call",
+    "optimization",
+    "recursion",
+    "recursive",
+    "proper",
+    "explicit",
+    "syntactic",
+    "minimal",
+    "small",
+    "ergonomic"
+  ],
+  "author": "Darius J Chuck",
+  "license": "MIT"
+}
