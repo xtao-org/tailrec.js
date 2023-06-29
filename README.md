@@ -2,6 +2,8 @@
 
 Simple explicit tail call optimization in JavaScript.
 
+Dependecy-free.
+
 ## Rationale
 
 Even though the ECMAScript standard specifies that [tail calls should be optimized](https://262.ecma-international.org/6.0/#sec-preparefortailcall), [most JavaScript engines don't implement this feature](http://kangax.github.io/compat-table/es6).

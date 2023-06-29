@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@xtao-org/tailrec.js",
   "description": "Simple explicit tail call optimization in JavaScript.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "tailrec.js",
   "scripts": {
     "test": "node --test"
@@ -25,5 +25,9 @@
     "ergonomic"
   ],
   "author": "Darius J Chuck",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xtao-org/tailrec.js.git"
+  }
 }
