@@ -12,6 +12,8 @@ This library provides a simple utility to transform any function into a tail-rec
 
 ## Install
 
+[npm package](https://www.npmjs.com/package/@xtao-org/tailrec.js):
+
 ```
 npm i @xtao-org/tailrec.js
 ```

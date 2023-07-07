@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@xtao-org/tailrec.js",
   "description": "Simple explicit tail call optimization in JavaScript.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "tailrec.js",
   "scripts": {
     "test": "node --test"
