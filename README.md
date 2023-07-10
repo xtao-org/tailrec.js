@@ -1,6 +1,6 @@
 # tailrec.js
 
-Simple explicit tail call optimization in JavaScript.
+Simple explicit tail call optimization in pure JavaScript.
 
 Dependecy-free.
 
@@ -10,12 +10,28 @@ Even though the ECMAScript standard specifies that [tail calls should be optimiz
 
 This library provides a simple utility to transform any function into a tail-recursive variant which will not grow the stack. This is achieved by wrapping the function into a trampoline which handles the recursion.
 
-## Install
+## Install and import
 
-[npm package](https://www.npmjs.com/package/@xtao-org/tailrec.js):
+### Node.js
+
+First install the [npm package](https://www.npmjs.com/package/@xtao-org/tailrec.js):
 
 ```
 npm i @xtao-org/tailrec.js
+```
+
+Then import as follows:
+
+```js
+import tailrec from "@xtao-org/tailrec.js"
+```
+
+### Deno and browsers
+
+Import directly from [jsDelivr](https://www.jsdelivr.com/):
+
+```js
+import tailrec from 'https://cdn.jsdelivr.net/gh/xtao-org/tailrec.js/tailrec.js'
 ```
 
 ## Use
@@ -23,6 +39,7 @@ npm i @xtao-org/tailrec.js
 Mutual tail recursion example:
 
 ```js
+// note: change the import (see above) if not using Node.js
 import tailrec from "@xtao-org/tailrec.js"
 
 const even = tailrec((n) => {
